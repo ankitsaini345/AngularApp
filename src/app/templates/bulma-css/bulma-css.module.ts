@@ -5,11 +5,12 @@ import { FooterComponent } from './footer/footer.component';
 import { BulmaRoutingModule } from './bulma-routing.module';
 import { BulmaComponent } from './bulma.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { FormsComponent } from './forms/forms.component';
 
 
 
 @NgModule({
-  declarations: [NavbarComponent, FooterComponent, BulmaComponent, ButtonsComponent],
+  declarations: [NavbarComponent, FooterComponent, BulmaComponent, ButtonsComponent, FormsComponent],
   imports: [
     CommonModule,
     BulmaRoutingModule
